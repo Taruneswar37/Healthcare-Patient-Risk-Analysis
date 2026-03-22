@@ -69,7 +69,8 @@ Healthcare-Patient-Risk-Analysis/
 - Bar charts and pie charts for categorical features
 - Age by Medical Condition (box plot)
 - Billing Amount by Admission Type (violin plot)
-Note: Once you see the one visualization close it to move to next.
+  
+**Note:** Once you see the one visualization close it to move to next.
 
 ---
 
@@ -103,6 +104,8 @@ Note: Once you see the one visualization close it to move to next.
 - Feature importance chart
 - Actual vs Predicted distribution comparison
 
+**Note:** Once you see the one visualization close it to move to next.
+
 ---
 
 ### ✅ Task 3 — Unsupervised Learning / Anomaly Detection (`task3_anomaly_detection.py`)
@@ -132,6 +135,8 @@ Unlike Z-Score and IQR which operate on a single dimension, Isolation Forest ana
 - Normal vs Anomalous billing distribution overlay
 - Method comparison bar chart
 - Anomalous records by Medical Condition
+
+**Note:** Once you see the one visualization close it to move to next.
 
 ---
 
