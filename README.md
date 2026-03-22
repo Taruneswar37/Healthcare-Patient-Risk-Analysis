@@ -141,7 +141,7 @@ Unlike Z-Score and IQR which operate on a single dimension, Isolation Forest ana
 **Approach:**
 1. Re-trained the Random Forest model from Task 2 on the full dataset
 2. For a given patient, predicted their `Test Result` with confidence score
-3. Passed the predicted result + patient attributes to **Google Gemini 1.5 Flash**
+3. Passed the predicted result + patient attributes to **Google Gemini 2.5 Flash**
 4. Gemini generates a structured clinical recommendation
 
 **Prompt Design:**
@@ -162,7 +162,7 @@ Dear Mr. Kumar,
 [Gemini generates a full structured clinical recommendation...]
 ```
 
-**API:** Google Gemini 1.5 Flash (free tier) via `google-genai` SDK
+**API:** Google Gemini 2.5 Flash (free tier) via `google-genai` SDK
 
 ---
 
@@ -251,12 +251,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy google-genai pyth
 | EDA | Histograms, box plots, bar charts, violin plots | No missing values; negative billing detected |
 | Supervised Learning | Random Forest (best of 3 models) | 38.63% accuracy — 5.3% above random baseline |
 | Anomaly Detection | Isolation Forest (best of 3 methods) | 2,775 anomalies flagged (~5% of records) |
-| AI Recommendation | Google Gemini 1.5 Flash | Structured clinical recommendations generated |
+| AI Recommendation | Google Gemini 2.5 Flash | Structured clinical recommendations generated |
 
 ---
 
-## 👤 Author
-
-**Taruneswar**  
-Submission for Novintix AI/ML Assessment  
-GitHub: [Taruneswar37](https://github.com/Taruneswar37)
