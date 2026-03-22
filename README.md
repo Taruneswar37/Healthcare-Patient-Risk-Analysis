@@ -69,6 +69,7 @@ Healthcare-Patient-Risk-Analysis/
 - Bar charts and pie charts for categorical features
 - Age by Medical Condition (box plot)
 - Billing Amount by Admission Type (violin plot)
+Note: Once you see the one visualization close it to move to next.
 
 ---
 
